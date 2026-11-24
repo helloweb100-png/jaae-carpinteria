@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 140 800 460" role="img" aria-label="Logotipo de JAAE Carpintería">
+  <title>JAAE Carpintería</title>
+  <defs>
+    <linearGradient id="madera" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C47A3B"/>
+      <stop offset=".55" stop-color="#A65A25"/>
+      <stop offset="1" stop-color="#6E3510"/>
+    </linearGradient>
+    <linearGradient id="arco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DB9C62"/>
+      <stop offset="1" stop-color="#8A4616"/>
+    </linearGradient>
+  </defs>
+  <!-- Arco de madera -->
+  <path id="arco-path" d="M335 285 A215 215 0 0 1 735 340" fill="none" stroke="url(#arco)" stroke-width="34"/>
+  <!-- Sierra circular (tinta = var(--ink) para poder usar el logo sobre fondo oscuro) -->
+  <g id="sierra" style="fill:var(--ink,#2B2A27)">
+    <path d="M309 295 A130 130 0 0 0 265 543" fill="none" stroke="var(--ink,#2B2A27)" stroke-width="34"/>
+    <g transform="translate(320 425)">
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(-60)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(-45)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(-30)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(-15)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(0)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(15)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(30)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(45)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(60)"/>
+      <path d="M-146 -13 L-176 0 L-146 13Z" transform="rotate(75)"/>
+    </g>
+  </g>
+  <!-- Casa: techo, chimenea y ventanas -->
+  <g id="casa">
+    <path d="M338 322 L515 224 L640 296" fill="none" stroke="var(--ink,#33312D)" stroke-width="22" stroke-linejoin="miter"/>
+    <path d="M640 296 V346 M628 346 H664" fill="none" stroke="var(--ink,#33312D)" stroke-width="7"/>
+    <g fill="#A65A25">
+      <rect x="490" y="278" width="23" height="21"/><rect x="517" y="278" width="23" height="21"/>
+      <rect x="490" y="303" width="23" height="21"/><rect x="517" y="303" width="23" height="21"/>
+    </g>
+  </g>
+  <!-- J -->
+  <path id="letra-j" d="M405 360 H472 L436 522 Q424 577 362 577 H228 L246 526 H346 Q372 524 378 496 Z" fill="url(#madera)" stroke="#4A2208" stroke-width="3" stroke-linejoin="round"/>
+  <!-- A -->
+  <path id="letra-a" d="M556 356 H620 L712 577 H646 L582 421 L482 577 H418 Z" style="fill:var(--ink,#34322E)"/>
+  <path id="a-cruce" d="M530 505 H600 L619 551 H520 Z" fill="url(#madera)"/>
+  <!-- E: tres tablones -->
+  <g id="letra-e" fill="url(#madera)" stroke="#4A2208" stroke-width="3" stroke-linejoin="round">
+    <path d="M690 358 H920 L906 410 H678 Z"/>
+    <path d="M682 442 H902 L889 494 H670 Z"/>
+    <path d="M718 527 H908 L894 577 H706 Z"/>
+  </g>
+  <!-- Vetas -->
+  <g fill="none" stroke="#E8B27A" stroke-opacity=".38" stroke-width="2" stroke-linecap="round">
+    <path d="M700 374 q60 -7 120 2 t80 -2"/>
+    <path d="M696 458 q55 -6 110 3 t76 -3"/>
+    <path d="M730 543 q50 -6 100 2 t66 -2"/>
+    <path d="M250 560 q50 -8 110 0"/>
+    <path d="M425 380 q-8 60 -18 120"/>
+  </g>
+</svg>
